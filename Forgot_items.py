@@ -2,10 +2,10 @@
 # Input:
 #   The first line contains a single integer c (number of items grabbed).
 #   The next c lines each contain a single nonempty string of lowercase letters indicating an item grabbed.
-# Output:storeItems = []
 #   Each of "keys", "phone", and "wallet" that does not appear in the input, one per line in alphabetical order.c = int(input().strip())
 #   If none of these items are missing, print "ready".
 
+storeItems = []
 for i in range(c):
     storeItems.append(input())
 

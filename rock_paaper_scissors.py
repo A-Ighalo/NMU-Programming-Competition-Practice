@@ -1,5 +1,7 @@
 import random
 
+#rock paper scissors game testing my ability to use inputs,
+# compare it with the computers choice to see who won
 def play():
     user = input("What's your choice? 'r' for rock, 'p' for paper, 's' for scissors: \n")
     computer = random.choice(['r', 'p', 's'])
